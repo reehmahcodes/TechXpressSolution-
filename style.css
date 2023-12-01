@@ -1,0 +1,756 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Home {
+    height: 100vh;
+    background: linear-gradient(rgba(2, 2, 2, 0.382), rgba(31, 55, 55, 0.65)), url(img/istockphoto-2a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.header {
+    padding:15px 20px;
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    align-items: center;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    gap: 1rem;  
+    color: antiquewhite;
+    padding: 10px 20px;
+}
+
+ .image {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    padding: 10px;
+    background-color:white;
+}
+
+.sub-Home {
+    background: linear-gradient(rgba(2, 2, 2, 0.382), rgba(31, 55, 55, 0.65)), url(img/istockphoto-2a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.header ul .menu-item1 {
+    text-decoration: none;
+    padding: 10px 50px;
+    background:antiquewhite;
+    color: purple;
+    border-radius: 20px;
+}
+
+.menu-item1:hover {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+.header ul a {
+    color: white;
+    transition: .3s ease-in-out;
+    padding: 0px 20px;
+}
+
+.header ul a:hover {
+    color: blueviolet;
+    transition: .2s ease-in-out;
+}
+
+.header ul li {
+    list-style: none;
+    color: white;
+}
+
+.header li:first-child {
+    margin-right: auto; 
+}
+
+.text {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.Content {
+    text-align: center;
+    color:white;  
+}
+
+.sub-content {
+    text-align: center;
+    color:white;
+    font-size: 70px;
+    padding-top: 150px;
+}
+
+
+.sub-content1 {
+    text-align: center;
+    
+}
+.content {
+    font-size: 22px;
+}
+
+.comp-name {
+    font-size: 75px;
+    padding-bottom: 30px;
+    padding-top: 170px;
+}
+
+.con-tent {
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+.register {
+    margin-top: 30px;
+    padding: 10px 60px;
+    background: none;
+    border: 2px solid antiquewhite;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.register:hover {
+    color:antiquewhite;
+    background-color:purple;
+}
+
+.About {
+    background-color:antiquewhite;
+}
+
+.about {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+
+.about-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.about1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: purple;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.abt-content {
+    font-size: 25px;
+    padding-top: 20px;
+    word-spacing: 2px;
+    
+}
+
+.our-mission {
+    padding-left: 170px;
+    display: flex;
+    gap: 10rem;
+}
+
+.mis {
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: purple;
+}
+
+.mis-content {
+    font-size: 25px;
+    width: 50%;
+}
+
+.about-img1 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+.brand {
+    margin-left: 50px;
+    display: flex;
+    gap: 3rem;
+}
+
+.webdev {
+    border: 1px solid white;
+    height: 450px;
+    width: 430px;
+    object-fit: cover;
+    /* transition: .1s ease-in-out; */
+    color: white;
+    margin-bottom: 50px;
+}
+
+.brand1 {
+    display: flex;
+    margin-left: 50px;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.serve {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    /* padding-top: 80px; */
+}
+
+
+.bodycontent {
+    background-color: rgb(143, 62, 143);
+}
+
+.other-service {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: purple;
+}
+
+.other-service1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.mentorship {
+    color: black;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.mentor-ship {
+    padding-top: 50px;
+    font-size: 20px;
+    gap: 2rem;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.career {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color:purple;
+    text-align: center;
+}
+
+.image2 {
+    margin-left: 150px;
+}
+
+.Career {
+    /* display: flex; */
+    align-items: center;
+    gap: 2rem;
+    margin-left: 50px;
+}
+
+.bodycontent img:hover{
+    width: 80%;
+    /* height: 200px; */
+    overflow: hidden;
+    transition: all .1s ease-in;
+    transform:scale(1.2);
+}
+
+.web1 {
+    border-bottom: 2px solid rebeccapurple;
+    background-color: white;
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+
+.web2 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+.service-cont {
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size:20px;
+}
+
+.home-content {
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(rgba(2, 2, 2, 0.382), rgba(31, 55, 55, 0.65)),url(img/istockphoto-2A.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.home-con {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.home-cont {
+    font-size: 30px;
+    height: 35vh;
+    padding: 20px 20px 0px 20px;
+}
+
+.cont {
+    padding: 10px 50px;
+    border-radius: 25px;
+    background: none;
+    border: 2px solid white;
+    font-size: 27px;
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.cont:hover {
+    background-color: purple;
+    color: antiquewhite;
+}
+
+.down-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+
+.choose {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: rebeccapurple;
+    padding-top: 50px;
+}
+
+#icons {
+    font-size: 50px;
+    color: gray;
+}
+
+.prac-exp {
+    padding-bottom: 40px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.prac-exp1 {
+    padding-bottom: 40px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.pract {
+    font-size: 30px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.pract-exp {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Partners {
+    padding-top: 70px;
+}
+
+.part-ner {
+    font-size: 30px;
+    text-align: center;
+    color: purple;
+    padding-top: 50px;
+}
+
+.image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Partners {
+    display: flex;
+    gap: 3rem;
+    margin-left: 50px;
+}
+
+.Blog {
+    padding-top: 50px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 14rem;
+    /* background: linear-gradient(rgba(2, 2, 2, 0.382), rgba(31, 55, 55, 0.65)), url(img/blog.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px; */
+    background-color: antiquewhite;
+    color: purple;
+    height: 50vh;
+}
+
+.blog {
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: purple;
+}
+
+.blog1 {
+    font-size: 27px;
+    color: purple;
+}
+
+.icons {
+    font-size: 30px;
+    color: antiquewhite;
+    padding-top: 20px;
+    gap: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+.bi-facebook {
+    color: white;
+    margin-right: 10px;
+}
+
+.bi-twitter {
+    color: white;
+    margin-right: 10px;
+}
+
+.bi-instagram {
+    color: white;
+    margin-right: 10px;
+}
+
+.bi-linkedin {
+    color: white;
+    margin-right: 10px;
+}
+
+.Contact {
+    background-color: antiquewhite;
+    /* padding-bottom: 30px; */
+}
+
+.cont-us {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: purple;
+    padding-bottom: 10px;
+}
+
+.Cont-us {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+.Contact-us {
+    padding-bottom: 50px;
+}
+
+.contact-map {
+    width: 100%;
+    /* height: 500px; */
+    padding: 20px ;
+    margin-bottom: 30px;
+}
+
+.contact-map iframe {
+    width: 200%;
+    height: 500px;
+}
+
+.address {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.add {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.add1 {
+    font-size: 25px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.add1:hover {
+    color: purple;
+}
+
+.Add {
+    padding-bottom: 40px;
+}
+
+.icons1 {
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 40px;
+    transition: all .2s ease-in-out;
+}
+
+.bi-facebook {
+    color: purple;
+    margin-right: 10px;
+}
+
+.bi-twitter {
+    color: purple;
+    margin-right: 10px;
+}
+
+.bi-instagram {
+    color: purple;
+    margin-right: 10px;
+}
+
+.bi-linkedin {
+    color: purple;
+    margin-right: 10px;
+}
+
+.register1 {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: none;
+    cursor: pointer;
+    margin-left: 30px;
+    border: 3px solid purple;
+}
+
+.Addres {
+    display: flex;
+    gap: 30rem;
+    padding-top: 30px;
+}
+
+.Add-ress {
+    margin-left: 50px;
+    display: flex;
+    gap: 25rem;
+}
+
+.home-content1 {
+    background-color: antiquewhite;
+}
+
+.registration {
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    gap: 30rem;
+}
+
+.border {
+    padding-bottom: 50px;
+}
+
+.reg {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+}
+
+.reg-img {
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+input {
+    width: 110%;
+    height: 50px;
+    margin-bottom: 30px;
+    /* margin-top: 10px; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input label {
+    font-size: 20px;
+    color: purple;
+}
+
+.input .msg{
+    /* display: list-item;
+    list-style: none; */
+}
+
+.send {
+    padding: 20px 200px;
+    background-color:  rgb(143, 62, 143);
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: rgb(143, 62, 143);
+    padding-top:70px ;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.tech {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.foo-ter {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 50px;
+    gap: 7rem;
+}
+
+.footer-send {
+    padding: 10px 50px;
+    background-color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: purple;
+    /* margin-left: 50px ; */
+}
+.tech1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.tech2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    /* padding-top: 30px; */
+}
+
+.comp-about {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copy {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: purple;
+}
+
+/* responsive design .Home */
+
+@media (min-width: 200px) and (max-width: 600px) {
+.Home {
+    height: 100vh;
+    background: linear-gradient(rgba(2, 2, 2, 0.382), rgba(31, 55, 55, 0.65)), url(img/istockphoto-2a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.header {
+    font-size: 16px;
+    gap: 1rem;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.header ul {
+
+}
+
+ .image {
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    padding: 10px;
+    background-color:white;
+}
+
+.text {
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+
+}
+
+
+
