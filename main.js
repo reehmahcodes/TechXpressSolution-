@@ -16,11 +16,21 @@ window.addEventListener('scroll', function() {
 
 // function showSidebar() {
 //     const sidebar = document.querySelector('.sidebar')
-//     sidebar.style.display = 'flex'
+//     sidebar.style.display = 'block'
 // }
 
 // function hideSidebar() {
 //     const sidebar = document.querySelector('.sidebar')
 //     sidebar.style.display = 'none'
 // }
+
+var navLinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200"
+        }
 

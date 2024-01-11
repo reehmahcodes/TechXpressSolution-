@@ -11,34 +11,35 @@
 </head>
 <body>
     <section>
-        <div class="Home">
-            <div class="header">
+        <section class="header">
+            <nav>
                 <div class="logo-name">
                     <img class="image" src="img/techxpress-removebg-preview.png" alt="logo" width="50px" height="50px">
                     <p class="text">Tech Xpress Solution</p>
                 </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="register.html" class="menu-item1">Register</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
 
-                <ul>
-                    <li><a class="menu-item" href="index.html">Home</a></li>
-                    <li><a class="menu-item" 
-                    href="about.html">About </a></li>
-                    <li><a class="menu-item"
-                    href="services.html">Services</a></li>
-                    <li><a class="menu-item"
-                    href="Blog.html">Blog</a></li>
-                    <li><a class="menu-item"
-                    href="contact.html">Contact</a></li>
-                    <li><a class="menu-item1"
-                    href="register.html">Register</a></l>
-                </ul>
-            </div>
+          
             <div class="Content">
                 <p class="comp-name">Tech Xpress Solution</p>
                 <p class="con-tent">At Tech Xpress Solution, we're more than just a tech agency. We're passionate about helping businesses thrive and <br> creating stunning digital experiences. </p>
                 <a href="services.html"><button class="register">Get Started</button></a></a>
             </div>
-        </div>
-
+        
+        </section>
+        
             <p class="choose">WHY CHOOSE US</p>
             <div class="down-content">
                 <div class="prac-exp">
@@ -69,53 +70,62 @@
                 <div class="home-content">
                     <p class="home-con">Embark On Your Journey with Tech Xpress Solution</p>
                     <p class="home-cont">We are dedicated to redefining your future by providing the practical experience, mentorship and career readiness support you need to strive in a professional world. Contact us today to learn more about our services and how we can help you kick-start your career.</p>
-                    <button class="cont">Contact Us</button>
+                    <a href="contact.html"><button class="cont">Contact Us</button></a>
                 </div>
 
                 <div class="footer">
                     <div class="foo-ter">
                         <div class="">
                             <p class="tech">Tech Xpress Solution</p>
-                            <p class="tech1">By choosing Tech Xpress Solution, you not only gain <br> practical experience and mentorship but also become <br> part of the community. You will join a network of <br> like-minded individuals who are passionate about <br> personal and professional growth collaboration, <br>innovation and creativity thrive  within our <br> community, providing endless opportunities <br>for learning and development.</p>
+                            <p class="tech1">By choosing Tech Xpress Solution, you not only gain practical <br> experience and mentorship but also become  part of the community. <br>You will join  a network of like-minded individuals who are passionate <br> about personal and professional growth collaboration, innovation and <br>creativity thrive  within our  community  providing endless opportunities <br> for learning and development.</p>
                         </div>
 
                         <div>
                             <p class="tech2">Company</p>
-                            <a class="comp-about" href="#Home">Home</a>
-                            <a class="comp-about" href="#Home">About Us</a>
-                            <a class="comp-about" href="#Home">Contact Us</a>
+                            <a class="comp-about" href="index.html">Home</a>
+                            <a class="comp-about" href="about.html">About Us</a>
+                            <a class="comp-about" href="contact.html">Contact Us</a>
                         </div>
 
                         <div>
                             <p class="tech2">Quick Links</p>
-                            <a class="comp-about" href="#Home">Services</a>
-                            <a class="comp-about" href="#Home">Portfolio</a>
-                            <a class="comp-about" href="#Home">Blog</a>
+                            <a class="comp-about" href="services.html">Services</a>
+                            <a class="comp-about" href="services.html">Portfolio</a>
+                            <a class="comp-about" href="Blog.html">Blog</a>
                         </div>
 
                         <div>
                             <p class="tech2">Stay Connected</p>
                             <p class="tech1">Subscribe to our weekly <br> subscription newsletter</p>
-                            <!-- <label for="email">Email Address</label> -->
-                            <input type="email" placeholder="Email Address">
+                            <input type="email" id="email" placeholder="Email Address" width="50%">
                             <a href=""><button class="footer-send">Send</button></a>
-                            <!-- <div class="icons">
-                                <a href="https://www.facebook.com/TechXpressSolution?mibextid=JRoKGi" target="_blank"><i class="bi bi-facebook"></i></a>
-                                <a href="https://x.com/TechXpressSolut?t=4xqTeM2po65VHAnMAXGlQw&s=09" target="_blank"><i class="bi bi-twitter"></i></a>
-                                <a href="https://instagram.com/techxpresssolution?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="bi bi-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/techxpresssolution/" 
-                                target="_blank"><i class="bi bi-linkedin"></i></a>
-                            </div> -->
                         </div>
-
-                        
                     </div>
                 </div>
 
                 <div>
                     <p class="copy">Copyright © 2023. All right reserved by Tech Xpress Solution.</p>
                 </div>
+        
+        
+
+            
                 
     </section>
+
+    <!-- ---javaScript for toggle---- -->
+
+    <!-- <script>
+        var navLinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200"
+        }
+        
+    </script> -->
 </body>
 </html>

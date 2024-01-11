@@ -11,31 +11,29 @@
 </head>
 <body>
     <section>
-        <div class="sub-Home">
-            <div class="header">
+        <section class="sub-header">
+            <nav>
                 <div class="logo-name">
                     <img class="image" src="img/techxpress-removebg-preview.png" alt="logo" width="50px" height="50px">
                     <p class="text">Tech Xpress Solution</p>
                 </div>
-
-                <ul>
-                    <li><a class="menu-item" href="index.html">Home</a></li>
-                    <li><a class="menu-item" 
-                    href="about.html">About </a></li>
-                    <li><a class="menu-item"
-                    href="services.html">Services</a></li>
-                    <li><a class="menu-item"
-                    href="Blog.html">Blog</a></li>
-                    <li><a class="menu-item"
-                    href="contact.html">Contact</a></li>
-                    <li><a class="menu-item1"
-                    href="register.html">Register</a></l>
-                </ul>
-            </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="register.html" class="menu-item1">Register</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
             <div class="sub-content">
                 <p>Register</p>
             </div>
-        </div>
+        </section>
 
             <div class="home-content1">
                 <p class="reg">Personal Information</p>
@@ -65,14 +63,10 @@
                             <label for="text">City:</label> <br>
                             <input type="text">
                         </div>
-                        <!-- <div class="input">
-                            <label for="text">Message:</label> <br>
-                            <textarea name="" id="" cols="54" rows="10"></textarea>
-                        </div> -->
                         <button class="send">Send</button>
                     </div>
 
-                    <img class="reg-img" src="img/regist.jpg" alt="" style="object-fit: cover; width:500px; height: 550px;">
+                    <img class="reg-img" src="img/regist.jpg" alt="" style="object-fit: cover; width:400px; height: 500px;">
                 </div>
 
                 <div class="border"></div>
@@ -105,17 +99,9 @@
                         <p class="tech2">Stay Connected</p>
                         <p class="tech1">Subscribe to our weekly <br> subscription newsletter</p>
                         <!-- <label for="email">Email Address</label> -->
-                        <input type="email" placeholder="Email Address">
+                        <input type="email" id="email" placeholder="Email Address">
                         <a href=""><button class="footer-send">Send</button></a>
                     </div>
-
-                    <!-- <div class="icons">
-                        <a href="https://www.facebook.com/TechXpressSolution?mibextid=JRoKGi" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="https://x.com/TechXpressSolut?t=4xqTeM2po65VHAnMAXGlQw&s=09" target="_blank"><i class="bi bi-twitter"></i></a>
-                        <a href="https://instagram.com/techxpresssolution?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/techxpresssolution/" 
-                        target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </div> -->
                 </div>
             </div>
 

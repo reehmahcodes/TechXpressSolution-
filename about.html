@@ -11,31 +11,29 @@
 </head>
 <body>
     <section>
-        <div class="sub-Home">
-            <div class="header">
+        <section class="sub-header">
+            <nav>
                 <div class="logo-name">
                     <img class="image" src="img/techxpress-removebg-preview.png" alt="logo" width="50px" height="50px">
                     <p class="text">Tech Xpress Solution</p>
                 </div>
-
-                <ul>
-                    <li><a class="menu-item" href="index.html">Home</a></li>
-                    <li><a class="menu-item" 
-                    href="about.html">About </a></li>
-                    <li><a class="menu-item"
-                    href="services.html">Services</a></li>
-                    <li><a class="menu-item"
-                    href="Blog.html">Blog</a></li>
-                    <li><a class="menu-item"
-                    href="contact.html">Contact</a></li>
-                    <li><a class="menu-item1"
-                    href="register.html">Register</a></l>
-                </ul>
-            </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="register.html" class="menu-item1">Register</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
             <div class="sub-content">
                 <p>About Us</p>
             </div>
-        </div>
+        </section>
 
         <div class="About">
             <div class="about-us">
@@ -46,14 +44,14 @@
 
                     <div class="Abo-ut">
                         <p class="about1">What we do</p>
-                        <i class="abt-content">TECH XPRESS SOLUTION is a full-service digital marketing <br>company where we believe in empowering next generation of <br>professionals by  providing them with practical work experience.<br> Our paid role allow  student to put into practice what they have <br> learned in the classroom  and tackle real-world challenges. This <br> hands-on experience set them apart from their peers and gives <br>them an edge in the competitive job market.</i>
+                        <p class="abt-content">TECH XPRESS SOLUTION is a full-service digital marketing <br>company where we believe in empowering next generation of <br>professionals by  providing them with practical work experience.<br> Our paid role allow  student to put into practice what they have <br> learned in the classroom  and tackle real-world challenges. This <br> hands-on experience set them apart from their peers and gives <br>them an edge in the competitive job market.</p>
                     </div>
                 </div>
 
                 <div class="our-mission">
                     <div class="Mission">
                         <p class="mis">Our Mission</p>
-                        <i class="mis-content">At Tech Xpress Solution, our mission is clear to - revolutionize the transition from the education to the professionals world. We are committed to bridging the gap between theory and practices, equiping young graduates and, undegraduates with the skill, experience and mentorship They need to thrive in their careers. Our goals is to ensure that every student we served is well prepared and confident in their chosen field. </i>
+                        <p class="mis-content">At Tech Xpress Solution, our mission is clear to - revolutionize the transition from the education to the professionals world. We are committed to bridging the gap between theory and practices, equiping young graduates and, undegraduates with the skill, experience and mentorship They need to thrive in their careers. Our goals is to ensure  that every student we served is well prepared and confident in their chosen field. </p>
                     </div>
                     <img class="about-img1" src="img/istockphoto-1434116614-612x612.jpg" alt="">
                 </div>
@@ -63,14 +61,14 @@
 
                     <div class="Abo-ut">
                         <p class="about1">Our Integrity</p>
-                        <i class="abt-content">We are dedicated to redefining your future by providing <br>the practical experience, mentorship and career readiness <br> support you need to strive in a professional world. Contact <br>us today to learn more about our services and how we can <br>help you kick-start your career. Passion drives us and we <br>are more interested in the results than what we get from <br> the services we provide. </i>
+                        <p class="abt-content">We are dedicated to redefining your future by providing <br>the practical experience, mentorship and career readiness <br> support you need to strive in a professional world. Contact <br>us today to learn more about our services and how we can <br>help you kick-start your career. Passion drives us and we <br>are more interested in the results than what we get from <br> the services we provide. </p>
                     </div>
                 </div>
 
                 <div class="our-mission">
                     <div class="Mission">
-                        <p class="mis">What makes us different?</p>
-                        <i class="mis-content">Our goal is on fresh graduates and undergraduates eager to gain real world experience. Whether you are an aspiring Engineer, Marketer, Designer, Analyst, Developer or any other profession. Blue DevTech solutions is here to help you take the first steps toward a successful career. </i>
+                        <p class="mis" id="mis">What makes us different?</p>
+                        <p class="mis-content">Our goal is on fresh graduates and undergraduates eager to gain real world experience. Whether you are an aspiring Engineer, Marketer, Designer, Analyst, Developer or any other profession. Blue DevTech solutions is here to help you take the first steps toward a successful career. </p>
                     </div>
                     <img class="about-img1" src="img/istockphoto-1438213571-612x612.jpg" alt="">
                 </div>
@@ -107,7 +105,7 @@
                             <p class="tech2">Stay Connected</p>
                             <p class="tech1">Subscribe to our weekly <br> subscription newsletter</p>
                             <!-- <label for="email">Email Address</label> -->
-                            <input type="email" placeholder="Email Address">
+                            <input type="email" id="email" placeholder="Email Address">
                             <a href=""><button class="footer-send">Send</button></a>
 
                             
