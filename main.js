@@ -24,13 +24,14 @@ window.addEventListener('scroll', function() {
 //     sidebar.style.display = 'none'
 // }
 
-var navLinks = document.getElementById("navlinks")
+var navLinks = document.getElementById("navLinks")
 
-        function showMenu(){
-            navLinks.style.right = "0"
-        }
+function showMenu() {
+    navLinks.style.right = "0"
+}
 
-        function hideMenu(){
-            navLinks.style.right = "-200"
-        }
+function hideMenu() {
+    navLinks.style.right = "-200px"
+}
+
 

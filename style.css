@@ -16,7 +16,7 @@
 
 nav {
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
     justify-content: space-around;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -50,7 +50,7 @@ nav {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding:20px;
+    padding:30px;
     position: relative;
 }
 
@@ -154,10 +154,22 @@ nav .bi {
 
 @media(max-width:700px) {
 
+    .header {
+        min-height: 80vh;
+    }
+
+    .sub-header {
+        min-height: 60vh;
+    }
+
+    .sub-content {
+        padding-top: 100px;
+    }
+
     .text {
         font-weight: bold;
         padding-left: 10px;
-        font-size: 20px;                                            
+        font-size: 20px;                                          
     }
 
     .image {
@@ -165,7 +177,7 @@ nav .bi {
         height: 30px;
         border-radius:50%;
         background-color:white;
-        /* margin-left: 40px; */
+        margin-top: 10px;
     }
 
     .nav-links ul li {
@@ -180,9 +192,7 @@ nav .bi {
         top: 0;
         right: -200px;
         text-align: left;
-        /* z-index: 2; */
         transform: 1s;
-        /* display: flex; */
     }
 
     nav .bi {
@@ -204,7 +214,6 @@ nav .bi {
 
     .home-con {
         font-size: 15px;
-        /* padding-bottom: 10px; */
         padding: 20px 10px 20px 10px;
     }
     
@@ -222,7 +231,7 @@ nav .bi {
     .comp-name {
         font-size: 60px;
         padding-bottom: 30px;
-        padding-top: 100px;
+        padding-top: 70px;
     }
 
     .con-tent {
@@ -414,7 +423,7 @@ nav .bi {
 }
 
 .brand {
-    margin-left: 70px;
+    margin-left: 90px;
     display: flex;
     gap: 4rem;
 }
@@ -491,7 +500,7 @@ nav .bi {
 
 .Career {
     align-items: center;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .bodycontent img:hover{
