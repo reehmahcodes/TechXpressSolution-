@@ -155,7 +155,7 @@ nav .bi {
 @media(max-width:700px) {
 
     .header {
-        min-height: 80vh;
+        min-height: 100vh;
     }
 
     .sub-header {
@@ -214,6 +214,7 @@ nav .bi {
 
     .home-con {
         font-size: 15px;
+        /* padding-bottom: 10px; */
         padding: 20px 10px 20px 10px;
     }
     
@@ -231,7 +232,7 @@ nav .bi {
     .comp-name {
         font-size: 60px;
         padding-bottom: 30px;
-        padding-top: 70px;
+        padding-top: 150px;
     }
 
     .con-tent {
@@ -367,7 +368,7 @@ nav .bi {
     font-size: 25px;
 }
 
-@media (max-width:700px) {
+@media(max-width:700px) {
 
     .our-mission {
         display: block;
@@ -669,6 +670,7 @@ nav .bi {
         color: white;
         margin-bottom: 50px;
         cursor: pointer;
+        margin-top: 60px;
     }
     
     .cont:hover {
@@ -1167,8 +1169,8 @@ input {
     .foo-ter {
         margin-top: 30px;
         display: flex;
-        margin-left: 20px;
-        gap: 2rem;
+        margin-left: 10px;
+        gap: 1rem;
     }
     
     .footer-send {
@@ -1177,6 +1179,7 @@ input {
         border: 2px solid white;
         border-radius: 10px;
         color: purple;
+        width: 30%;
     }
     
     .tech1 {
@@ -1191,12 +1194,13 @@ input {
     }
 
     #email {
-        width: 90%;
+        width: 70%;
     }
+
     .comp-about {
         text-decoration: none;
         color: white;
-        font-size: 15px;
+        font-size: 12px;
         display: flex;
         flex-direction: column;
     }
@@ -1228,7 +1232,7 @@ input {
     }
 }
 
-@media (max-width:700px) {
+@media(max-width:700px) {
     .cont-us {
         text-align: center;
         /* padding-top: 20px; */
@@ -1378,6 +1382,12 @@ input {
         font-size: 22px;
         /* height: 30vh; */
         padding: 10px 20px 0px 20px;
+    }
+}
+
+@media(max-width:700px) {
+    .send1 {
+        width: 40%;
     }
 }
 
