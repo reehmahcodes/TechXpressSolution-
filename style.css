@@ -232,16 +232,17 @@ nav .bi {
     .comp-name {
         font-size: 60px;
         padding-bottom: 30px;
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .con-tent {
-        padding-bottom: 40px;
         font-size: 21px;
+        padding:0px 15px 40px 15px ;
     }
     
     .register {
         margin-top: 25px;
+        margin-bottom: 50px;
         padding: 10px 60px;
         background: none;
         border: 2px solid antiquewhite;
@@ -319,21 +320,20 @@ nav .bi {
     }
     
     .about-img {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         object-fit: cover;
         margin-top: 50px;
         border-radius: 50%;
-        margin-left: 170px;
+        margin-left: 60px;
         text-align: center;
     }
     
     .about1 {
-        padding-top: 40px;
+        padding-top: 30px;
         font-size: 35px;
-        padding-bottom: 20px;
         color: purple;
-        margin-left: 220px;
+        text-align: center;
     }
     
     .about-content {
@@ -343,10 +343,11 @@ nav .bi {
     }
     
     .abt-content {
-        font-size: 20px;
-        /* padding-top: 20px; */
+        width: 70%;
+        font-size: 18px;
         word-spacing: 2px;
-        margin-left: 72px;
+        margin-left: 60px;
+        padding: 10px 15px 10px 0px;
     } 
     
 }
@@ -373,7 +374,7 @@ nav .bi {
     .our-mission {
         display: block;
         /* gap: 5rem; */
-        padding-left: 60px;
+        padding-left: 30px;
     }
     
     .mission {
@@ -381,23 +382,26 @@ nav .bi {
     }
 
     .mis {
-        font-size: 35px;
-        padding-top: 70px;
+        font-size:35px;
+        padding-top: 50px;
         padding-bottom: 30px;
         color: purple;
-        margin-left: 170px;
+        text-align: center;
     }
     
     .mis-content {
-        font-size: 20px;
-        margin-left: 20px;
+        width: 80%;
+        font-size: 18px;
+        word-spacing: 2px;
+        margin-left: 30px;
+        padding: 10px 15px 10px 0px;
     }
 
 }
 
 
 .about-img1 {
-        width: 400px;
+    width: 400px;
         height: 400px;
         object-fit: cover;
         margin-top: 50px;
@@ -409,17 +413,19 @@ nav .bi {
 @media(max-width:700px) {
 
     .about-img1 {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         object-fit: cover;
         margin-top: 50px;
         border-radius: 50%;
-        margin-left: 120px;
-        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
 
+    .about-img
+
     #mis {
-        margin-left: 120px;
+        
     }
 }
 
@@ -441,7 +447,7 @@ nav .bi {
 
 .brand1 {
     display: flex;
-    margin-left: 70px;
+    margin-left: 90px;
     gap: 4rem;
     margin-top: 50px;
 }
@@ -505,7 +511,7 @@ nav .bi {
 }
 
 .bodycontent img:hover{
-    width: 80%;
+    width: 100%;
     height: 200px;
     overflow: hidden;
 }
@@ -568,25 +574,38 @@ nav .bi {
     color: antiquewhite;
 }
 
+.image4 {
+    width: 340px;
+}
+
+.image5 {
+    width: 360px;
+    height: 280px;
+}
+
 @media(max-width:700px){
     .brand {
-        margin-left: 140px;
+        margin-left: 40px;
         display: block;
     }
     
     .webdev {
         border: 1px solid white;
         height: 380px;
-        width: 340px;
+        width: 300px;
         object-fit: cover;
         /* transition: .1s ease-in-out; */
         color: white;
         margin-bottom: 50px;
     }
     
+    .image4 {
+        width: 300px;
+    }
+
     .brand1 {
         display:block;
-        margin-left: 140px;
+        margin-left: 40px;
         margin-top: 50px;
     }
     
@@ -600,21 +619,14 @@ nav .bi {
         background-color: rgb(143, 62, 143);
     }
     
-    .other-service {
-        font-size: 40px;
-        text-align: center;
-        padding-top: 50px;
-        color: purple;
-    }
-    
     .other-service1 {
         font-size: 20px;
         text-align: center;
-        padding-top: 16px;
+        padding: 16px 15px 0px 15px ;
     }
     
     .bodycontent img:hover{
-        width: 80%;
+        width: 100%;
         height: 200px;
         overflow: hidden;
     }
@@ -686,13 +698,19 @@ nav .bi {
         background-color: antiquewhite;
     }
     
+    
     .other-service {
         padding-top: 30px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .other-service1 {
         font-size: 20px;
+    }
+
+    .image5 {
+        width: 280px;
+        height: 230px;
     }
 
     .mentor-ship {
@@ -705,7 +723,7 @@ nav .bi {
         font-size: 25px;
         padding-bottom: 10px;
         color:purple;
-        padding-left: 80px;
+        /* text-align: center; */
     }
 
     .car-reer {
@@ -720,7 +738,7 @@ nav .bi {
     
     .Career {
         align-items: center;
-        margin-left: 140px;
+        margin-left: 45px;
         padding-bottom: 20px;
     }
  }
@@ -842,6 +860,7 @@ nav .bi {
         border: 2px solid white;
         font-size: 25px;
         color: white;
+        margin-top: 100px;
         margin-bottom: 50px;
         cursor: pointer;
     }
@@ -1030,7 +1049,6 @@ nav .bi {
 }
 
 .Add-ress {
-    margin-left: 50px;
     display: flex;
     gap: 15rem;
 }
@@ -1060,10 +1078,12 @@ nav .bi {
 .reg-img {
     margin-top: 100px;
     border-radius: 10px;
+    width: 400px;
+    height: 500px;
 }
 
 input {
-    width: 100%;
+    width: 90%;
     height: 50px;
     margin-bottom: 20px;
     /* margin-top: 10px; */
@@ -1076,13 +1096,11 @@ input {
     color: purple;
 }
 
-.input .msg{
-    /* display: list-item;
-    list-style: none; */
+a {
+    text-decoration: none;
 }
-
 .send {
-    padding: 20px 180px;
+    padding: 20px 80px;
     background-color:  rgb(143, 62, 143);
     font-size: 20px;
     margin-top: 30px;
@@ -1113,7 +1131,7 @@ input {
 }
 
 .footer-send {
-    padding: 10px 50px;
+    padding: 10px 70px;
     background-color: antiquewhite;
     border: 2px solid white;
     border-radius: 10px;
@@ -1174,27 +1192,26 @@ input {
     }
     
     .footer-send {
-        padding: 10px 50px;
+        padding: 10px 30px;
         background-color: antiquewhite;
         border: 2px solid white;
         border-radius: 10px;
         color: purple;
         width: 30%;
     }
-    
+
     .tech1 {
         font-size: 15px;
         padding-bottom: 20px;
     }
     
     .tech2 {
-        font-size: 20px;
+        font-size: 17px;
         padding-bottom: 20px;
-        /* padding-top: 30px; */
     }
 
     #email {
-        width: 70%;
+        width: 90%;
     }
 
     .comp-about {
@@ -1209,14 +1226,13 @@ input {
 @media(max-width:700px) {
     .Blog {
         padding-top: 20px;
-        /* text-align: center; */
         display: flex;
         align-items: center;
-        padding-left: 50px;
-        gap: 10rem;
+        padding-left: 30px;
+        gap: 3rem;
         background-color: antiquewhite;
         color: purple;
-        height: 60vh;
+        height: 90vh;
     }
     
     .blog {
@@ -1226,28 +1242,30 @@ input {
     }
     
     .blog1 {
-        font-size: 23px;
+        font-size: 20px;
         color: purple;
-        width: 80%;
+        width: 50%;
     }
 }
 
 @media(max-width:700px) {
     .cont-us {
         text-align: center;
-        /* padding-top: 20px; */
         font-size:30px;
         color: purple;
-        /* padding-bottom: 10px; */
     }
     
     .icons1 {
-        font-size: 25px;
+        font-size: 30px;
+        padding-top: 20px;
+        transition: all .2s ease-in-out;
     }
+    
+
     .Cont-us {
         text-align: center;
         font-size: 20px;
-        /* padding-top: 50px; */
+        padding: 0px 12px 0px 12px;
     }
 
     .Contact {
@@ -1255,14 +1273,14 @@ input {
     }
     
     .Contact-us {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     
     .contact-map {
-        width: 70%;
+        width: 80%;
         padding: 20px ;
         padding-bottom:30px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     .contact-map iframe {
@@ -1273,18 +1291,15 @@ input {
     .address {
         font-size: 30px;
         font-weight: bold;
-        padding-left: 30px;
     }
     
     .add {
-        font-size: 20px;
-        /* padding-top: 15px; */
-        padding-left: 30px;
+        font-size: 25px;
+        padding-top: 15px;
     }
     
     .add1 {
         font-size: 20px;
-        /* padding-top: 15px; */
         text-decoration: none;
         color: black;
     }
@@ -1300,6 +1315,7 @@ input {
 }
 
 @media(max-width:700px){
+    
     .register1 {
         padding: 15px 20px;
         font-size: 16px;
@@ -1316,20 +1332,20 @@ input {
     }
     
     .Add-ress {
-        margin-left: 100px;
         display: block;
     }
 
     .con-add {
-        margin-left: 120px;
+        margin-left: 50px;
     }
     
     .home-content1 {
         background-color: antiquewhite;
+        
     }
     
     .registration {
-        margin-left: 40px;
+        margin-left: 50px;
         margin-top: 50px;
         display: block;
     }
@@ -1340,19 +1356,20 @@ input {
     
     .reg {
         padding-top: 20px;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         color: purple;
     }
     
     .reg-img {
         margin-top: 50px;
-        /* margin-left: 30px; */
         border-radius: 10px;
+        width: 270px;
+        height: 400px;
     }
     
     input {
-        width: 60%;
+        width: 80%;
         height: 50px;
         margin-bottom: 30px;
         background-color: white;
@@ -1365,7 +1382,7 @@ input {
     }
 
     .send {
-        padding: 20px 170px;
+        padding: 20px 110px;
         background-color:  rgb(143, 62, 143);
         font-size: 20px;
         margin-top: 30px;
@@ -1387,7 +1404,7 @@ input {
 
 @media(max-width:700px) {
     .send1 {
-        width: 40%;
+        /* width: 40%; */
     }
 }
 
